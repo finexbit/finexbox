@@ -30,7 +30,7 @@ Used to get current tick values for the market. Sample output:<br>
 ```
 Required parameters: market<br>
 
-`Call: https://xapi.finexbox.com/v1/ticker?market=btc_usd`
+`Call: https://xapi.finexbox.com/v1/ticker?market=doge_btc`
 
 /api/v1/orders<br>
 Returns the order book for this market. Sample output:<br>
@@ -39,7 +39,7 @@ Returns the order book for this market. Sample output:<br>
 ```
 Required parameters: market, count (max: 200)<br>
 
-`Call: https://xapi.finexbox.com/v1/orders?market=btc_usd&count=100`
+`Call: https://xapi.finexbox.com/v1/orders?market=doge_btc&count=100`
 
 /api/v1/history<br>
 Gets the historical transactions of a particular market. Sample output:<br>
@@ -48,7 +48,7 @@ Gets the historical transactions of a particular market. Sample output:<br>
 ```
 Required parameters: market, count (max: 200)<br>
 
-`Call: https://xapi.finexbox.com/v1/history?market=btc_usd&count=100`<br>
+`Call: https://xapi.finexbox.com/v1/history?market=doge_btc&count=100`<br>
 
 /api/v1/chart<br>
 Gets candles in the format of historical trades of a particular market. Sample output:<br>
@@ -57,7 +57,7 @@ Gets candles in the format of historical trades of a particular market. Sample o
 ```
 Required parameters: market, period in min. (5, 15, 30, 60, 360, 720, 1440, 10080)<br>
 
-`Call: https://xapi.finexbox.com/v1/chart?market=btc_usd&period=30`
+`Call: https://xapi.finexbox.com/v1/chart?market=doge_btc&period=30`
 
 
 
