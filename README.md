@@ -4,6 +4,10 @@ The open api of finexbox
 
 ## API Documentation
 
+https://xapi.finexbox.com/v1/cmcpublicticker
+
+    Note that if you use more than two calls per second for a public API or multiple and unnecessary retrieval of redundant volumes of data, your IP address may be banned.<br>
+
 ## Public API Methods
 
     Note that if you use more than two calls per second for a public API and/or perform a unnecessary retrieval of redundant volumes of data, your IP address may be banned.
